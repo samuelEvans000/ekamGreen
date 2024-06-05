@@ -1,0 +1,174 @@
+.projects{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectIntro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-image:  url("/src/assets/work.png"), url("/src/assets/projectBG.png");
+  background-repeat: no-repeat;
+  background-size: 60%, cover;
+  /* height: 50vh; */
+  background-position: center 12rem, top;
+  margin-bottom: 3rem;
+}
+
+.projectIntro img{
+  z-index: -1;
+}
+
+.projectIntro h1{
+  color: #FFAF66;
+}
+
+.projectImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 8rem;
+}
+
+.projectImg img{
+  width: 80%;
+}
+
+
+/* src/App.css */
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 3rem; */
+}
+
+.arrow {
+  width: 50px; /* Adjust the size as needed */
+  height: 74px; /* Adjust to match the height of the images */
+  background-image: url('/src/assets/ani1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+    background-image: url('/src/assets/ani1.png');
+  }
+  50% {
+    transform: translateY(30px); /* Adjust the distance as needed */
+    background-image: url('/src/assets/ani2.png');
+  }
+  100% {
+    transform: translateY(0);
+    background-image: url('/src/assets/ani1.png');
+  }
+}
+
+
+
+/* Form */
+.addressBox{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F57600;
+    border-radius: 20px;
+    padding: 2rem 4rem;
+    justify-content: center;
+    justify-self: center;
+  }
+  
+  .Acontent{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  
+  .address{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .address p , .aa p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .address h4{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  
+  .aa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Pcontact {
+    display: flex;
+    width: 40%;
+    background-color: #D6F8D4;
+    border-radius: 20px;
+    padding: 2rem 4rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .Pcontact:hover{
+    background-color: #FFAF66;
+  }
+
+  .Pcontact:hover .PmessageButton{
+    background-color: #F57600;
+    color: #000;
+    box-shadow: 1px 2px 8px 0px #00000080;
+  }
+  
+  .Pcontact form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #88888842;
+    box-shadow: 0px 2px 8px 0px #00000040;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+  }
+  
+  input {
+    padding: 0rem 1rem;
+    height: 40px;
+    width: 100%;
+  }
+  
+  textarea{
+    height: 150px;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .PmessageButton{
+    background-color: #11770E;
+    padding: 1rem;
+    transition: background-color 0.2s ease;
+  }
