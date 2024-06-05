@@ -60,7 +60,7 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    background-image: url("/src/assets/serviceBG.png");
+    background-image: url("/assets/serviceBG.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: 4rem 0 2rem 0;
@@ -91,7 +91,7 @@
 .serviceForm {
     display: flex;
     flex-direction: column;
-    background-image: url("/src/assets/requestBG.png");
+    background-image: url("/assets/requestBG.png");
     background-repeat: no-repeat;
     padding: 5rem 5rem;
     background-size: cover;

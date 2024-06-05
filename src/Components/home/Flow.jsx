@@ -4,24 +4,24 @@ import { useState } from "react";
 const Flow = () => {
 
 
-    const [bgImage, setBgImage] = useState('/src/assets/test.png');
+    const [bgImage, setBgImage] = useState('/assets/test.png');
 
     const test1 = () => {
-        setBgImage('/src/assets/test1.png');
+        setBgImage('/assets/test1.png');
     };
 
     const test2 = () => {
-        setBgImage('/src/assets/test2.png');
+        setBgImage('/assets/test2.png');
     };
     const test3 = () => {
-        setBgImage('/src/assets/test3.png');
+        setBgImage('/assets/test3.png');
     };
     const test4 = () => {
-        setBgImage('/src/assets/test4.png');
+        setBgImage('/assets/test4.png');
     };
 
     const handleMouseOut = () => {
-        setBgImage('/src/assets/test.png');
+        setBgImage('/assets/test.png');
     };
 
     return (
@@ -32,22 +32,22 @@ const Flow = () => {
             </div>
             <div className="workflow-container"  style={{ backgroundImage: `url(${bgImage})` }} >
                 {/* <div className="workflow-stage">
-                    <img src="/src/assets/f1.png" />
+                    <img src="/assets/f1.png" />
                     <p className="title">We Listen</p>
                 </div>
                 <div className="curvy-line"></div>
                 <div className="workflow-stage">
-                    <img src="/src/assets/f2.png" />
+                    <img src="/assets/f2.png" />
                     <p className="title">Analysis</p>
                 </div>
                 <div className="curvy-line"></div>
                 <div className="workflow-stage">
-                    <img src="/src/assets/f3.png" />
+                    <img src="/assets/f3.png" />
                     <p className="title">Concept & <br></br>Design</p>
                 </div>
                 <div className="curvy-line"></div>
                 <div className="workflow-stage">
-                    <img src="/src/assets/f4.png" />
+                    <img src="/assets/f4.png" />
                     <p className="title">Delivery</p>
                 </div> */}
                 <div onMouseOver={test1} onMouseOut={handleMouseOut} className="test1" />
@@ -58,19 +58,19 @@ const Flow = () => {
             <div className="flowSolar">
                 <h2>Why go<br></br> Solar?</h2>
                 <div className="solarInfo">
-                    <img src="/src/assets/money.png" />
+                    <img src="/assets/money.png" />
                     <p>Make Money From Sun</p>
                 </div>
                 <div className="solarInfo">
-                    <img src="/src/assets/green.png" />
+                    <img src="/assets/green.png" />
                     <p>Green Energy</p>
                 </div>
                 <div className="solarInfo">
-                    <img src="/src/assets/low.png" />
+                    <img src="/assets/low.png" />
                     <p>Low-Maintenance</p>
                 </div>
                 <div className="solarInfo">
-                    <img src="/src/assets/return.png" />
+                    <img src="/assets/return.png" />
                     <p>Return on Investment</p>
                 </div>
             </div>

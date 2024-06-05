@@ -12,15 +12,15 @@ const Form = () => {
                         <p>Save Money, Save The Environment!</p>
                         <h4>Providing Value To Our Clients Through<br></br> Ongoing Product & Innovation.</h4>
                         <div className="aa">
-                            <img src="/src/assets/a1.png" />
+                            <img src="/assets/a1.png" />
                             <p>info@arcrenewables.in</p>
                         </div>
                         <div className="aa">
-                            <img src="/src/assets/a2.png" />
+                            <img src="/assets/a2.png" />
                             <p>+91-92890 44073, +91 124 4242428</p>
                         </div>
                         <div className="aa">
-                            <img src="/src/assets/a3.png" />
+                            <img src="/assets/a3.png" />
                             <p>Contact us on Whatsapp</p>
                         </div>
                     </div>

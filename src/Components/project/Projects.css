@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background-image:  url("/src/assets/work.png"), url("/src/assets/projectBG.png");
+  background-image:  url("/assets/work.png"), url("/assets/projectBG.png");
   background-repeat: no-repeat;
   background-size: 60%, cover;
   /* height: 50vh; */
@@ -54,7 +54,7 @@
 .arrow {
   width: 50px; /* Adjust the size as needed */
   height: 74px; /* Adjust to match the height of the images */
-  background-image: url('/src/assets/ani1.png');
+  background-image: url('/assets/ani1.png');
   background-size: contain;
   background-repeat: no-repeat;
   animation: moveUpDown 2s infinite;
@@ -63,15 +63,15 @@
 @keyframes moveUpDown {
   0% {
     transform: translateY(0);
-    background-image: url('/src/assets/ani1.png');
+    background-image: url('/assets/ani1.png');
   }
   50% {
     transform: translateY(30px); /* Adjust the distance as needed */
-    background-image: url('/src/assets/ani2.png');
+    background-image: url('/assets/ani2.png');
   }
   100% {
     transform: translateY(0);
-    background-image: url('/src/assets/ani1.png');
+    background-image: url('/assets/ani1.png');
   }
 }
 

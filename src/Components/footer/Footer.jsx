@@ -6,22 +6,22 @@ const Footer = () => {
         <div>
             <div className="Ficons">
                 <a>
-                <img src="/src/assets/I.png" />
+                <img src="/assets/I.png" />
                 </a>
                 <a>
-                <img src="/src/assets/X.png" />
+                <img src="/assets/X.png" />
                 </a>
                 <a>
-                <img src="/src/assets/L.png" />
+                <img src="/assets/L.png" />
                 </a>
                 <a>
-                <img src="/src/assets/F.png" />
+                <img src="/assets/F.png" />
                 </a>
             </div>
 
             <div className="footer-info">
                 <div className="div1">
-                    <img src="/src/assets/logo.jpg" />
+                    <img src="/assets/logo.jpg" />
                     <h5>EKAM RENEWABLES PVT LTD</h5>
                     <p>SCO 11, 1st Floor, Sector 23 A,<br></br> Gurugram-122001, Haryana</p>
                 </div>
@@ -29,31 +29,31 @@ const Footer = () => {
                 <div className="div2">
                     <h4>our Products</h4>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>our Products</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Utility Scale Power Plant</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Off Grid System</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Water Heating</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Our Team</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>FAQ</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Who We Are</p>
                     </div>
                 </div>
@@ -61,23 +61,23 @@ const Footer = () => {
                 <div className="div3">
                     <h4>On Grid Solar Panel kw</h4>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>1 kw on grid solar system</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>3 kw on grid solar system</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>5 kw on grid solar system</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>7 kw on grid solar system</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>10 kw on grid solar system</p>
                     </div>
                 </div>
@@ -85,23 +85,23 @@ const Footer = () => {
                 <div className="div4">
                     <h4>Price Of Solar Panel</h4>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Price in Gurgaon</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Price in Delhi</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Price in Faridabad</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Price in Ghaziabad</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Price in NOIDA</p>
                     </div>
                 </div>
@@ -109,23 +109,23 @@ const Footer = () => {
                 <div className="div5">
                     <h4>Locations</h4>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Company in gurgaon</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Company in Delhi NCR</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Company in Faridabad</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Company in ghaziabad</p>
                     </div>
                     <div className="info-list">
-                        <img src="/src/assets/tick.png" />
+                        <img src="/assets/tick.png" />
                         <p>Solar Panel Company in NOIDA</p>
                     </div>
                 </div>

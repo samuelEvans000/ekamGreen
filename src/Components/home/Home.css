@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Nico Moji';
-  src: url('/src/fonts/Nico-Moji.ttf.woff') format('ttf');
+  src: url('/fonts/Nico-Moji.ttf.woff') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
   align-items: center;
   margin-top: 2rem;
   height: auto;
-  background-image: url("/src/assets/home.png");
+  background-image: url("/assets/home.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -268,7 +268,7 @@
   padding: 20px;
   position: relative;
   margin-top: 2rem;
-  background-image: url("/src/assets/border.png");
+  background-image: url("/assets/border.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%;
@@ -282,7 +282,7 @@
   padding: 20px ;
   position: relative;
   margin-top: 2rem;
-  /* background-image: url("/src/assets/test.png"); */
+  /* background-image: url("/assets/test.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -505,7 +505,7 @@
   align-items: center;
   justify-content: center;
   gap: 6rem;
-  background-image: url("/src/assets/or.png");
+  background-image: url("/assets/or.png");
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -514,7 +514,7 @@
 }
 
 .Rcontent:hover {
-  background-image: url("/src/assets/gr.png");
+  background-image: url("/assets/gr.png");
 }
 
 .rimg {

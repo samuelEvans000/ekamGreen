@@ -10,15 +10,15 @@ const Reach = () => {
                 </div>
                 <div className="reachContent">
                     <div className="reachInfo">
-                        <img src="/src/assets/a4.png" />
+                        <img src="/assets/a4.png" />
                         <p>SCO 11, 1st Floor, Above Bank of  Maharashtra, Sector 23 A,Gurugram-122001,Haryana</p>
                     </div>
                     <div className="reachInfo">
-                        <img src="/src/assets/a1.png" />
+                        <img src="/assets/a1.png" />
                         <p>info@arcrenewables.in</p>
                     </div>
                     <div className="reachInfo">
-                        <img src="/src/assets/a2.png" />
+                        <img src="/assets/a2.png" />
                         <p>+91-92890-44073</p>
                     </div>
                 </div>

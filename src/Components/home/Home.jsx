@@ -33,12 +33,12 @@ const Home = () => {
             </div>
             <div className="whatsapp">
                 <div className="wtext">
-                    <img src="/src/assets/whatsapp.png" />
+                    <img src="/assets/whatsapp.png" />
                     <p>Contact us on Whatsapp</p>
                 </div>
                 <div className="wnum">
-                    <img className="phone" src="/src/assets/phone.png" />
-                    <img className="phonew" src="/src/assets/phonew.png" />
+                    <img className="phone" src="/assets/phone.png" />
+                    <img className="phonew" src="/assets/phonew.png" />
                     <p>9289044073</p>
                 </div>
             </div>

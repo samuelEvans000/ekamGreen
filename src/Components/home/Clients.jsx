@@ -8,16 +8,16 @@ const Clients = () => {
                 <div className="clientLine"></div>
             </div>
             <div className="Cimg">
-                <img src="/src/assets/c1.png" />
-                {/* <img src="/src/assets/c2.png" />
-                <img src="/src/assets/c3.png" />
-                <img src="/src/assets/c4.png" />
-                <img src="/src/assets/c5.png" />
-                <img src="/src/assets/c6.png" />
-                <img src="/src/assets/c7.png" />
-                <img src="/src/assets/c8.png" />
-                <img src="/src/assets/c9.png" />
-                <img src="/src/assets/c10.png" /> */}
+                <img src="/assets/c1.png" />
+                {/* <img src="/assets/c2.png" />
+                <img src="/assets/c3.png" />
+                <img src="/assets/c4.png" />
+                <img src="/assets/c5.png" />
+                <img src="/assets/c6.png" />
+                <img src="/assets/c7.png" />
+                <img src="/assets/c8.png" />
+                <img src="/assets/c9.png" />
+                <img src="/assets/c10.png" /> */}
             </div>
 
 

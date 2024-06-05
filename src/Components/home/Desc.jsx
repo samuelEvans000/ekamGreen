@@ -13,7 +13,7 @@ const Desc = () => {
                     <p>So here’s presenting to you, the finest <b>Solar Panel EPC Company in Gurgaon</b>, ARC Renewables. Our motto is to build a nation that runs on clean and renewable energy. We cater the best quality <b>residential and commercial Rooftop Solar systems</b> at budget friendly prices.Incorporated with a goal of sustainability and environmental protection, we are the top leaders in providing the leading quality design engineering in <b>Gurgaon.</b></p>
                 </div>
                 <div className="descImg">
-                    <img src="/src/assets/solar.png" />
+                    <img src="/assets/solar.png" />
                 </div>
             </div>
         </div>

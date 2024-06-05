@@ -8,15 +8,15 @@ const Brands = () => {
                 <div className="brandLine"></div>
             </div>
             <div className="brandImg">
-                <img src="/src/assets/b1.png" />
-                <img src="/src/assets/b2.png" />
-                <img src="/src/assets/b3.png" />
-                <img src="/src/assets/b4.png" />
+                <img src="/assets/b1.png" />
+                <img src="/assets/b2.png" />
+                <img src="/assets/b3.png" />
+                <img src="/assets/b4.png" />
             </div>
 
             <div className="brandContact">
                 <div className="bc1">
-                    <img src="/src/assets/bc.png" />
+                    <img src="/assets/bc.png" />
                     <p>Get a Free <br></br> Consultation, Call us</p>
                 </div>
                 <div className="bc2">

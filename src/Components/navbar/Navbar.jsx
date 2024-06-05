@@ -8,18 +8,18 @@ const Navbar = () => {
         <>
             <div className="nav-contact">
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "10px" }}>
-                    <img src="/src/assets/mail.png" />
+                    <img src="/assets/mail.png" />
                     <p>Info@acrenewables.in</p>
                 </div>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "10px", marginRight: "2rem" }}>
-                    <img src="/src/assets/call.png" />
+                    <img src="/assets/call.png" />
                     <p>+91 9289044073 , +91 124 4242428</p>
                 </div>
             </div>
             <div className="navbar">
                 <div>
                     <Link to='/'>
-                        <img src="/src/assets/logo.png" />
+                        <img src="/assets/logo.png" />
                     </Link>
                 </div>
                 <div className="nav-links">
@@ -29,7 +29,7 @@ const Navbar = () => {
                         </p>
                     </Link>
                     <Link to="" style={{ textDecoration: "none" }}>
-                        <p style={{ display: "flex", alignItems: "center", gap: '10px' }}>Our Products <img src="/src/assets/dropdown.png" /></p>
+                        <p style={{ display: "flex", alignItems: "center", gap: '10px' }}>Our Products <img src="/assets/dropdown.png" /></p>
                     </Link>
                     <Link to="/services" style={{ textDecoration: "none" }}>
                         <p>Services</p>

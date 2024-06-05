@@ -8,7 +8,7 @@ const Services = () => {
         <div className="services">
             <div className="serviceMain">
                 <div className="serviceImg">
-                    <img src="/src/assets/serviceM.png" />
+                    <img src="/assets/serviceM.png" />
                 </div>
                 <div className="serviceTitle">
                     <h1 className="l1">SOLAR</h1>
@@ -36,7 +36,7 @@ const Services = () => {
                         <button>Request call</button>
                     </div>
                     <div className="sideImg">
-                        <img src="/src/assets/robo.png" />
+                        <img src="/assets/robo.png" />
                     </div>
                 </div>
 
