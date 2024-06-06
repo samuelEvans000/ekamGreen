@@ -14,15 +14,22 @@
     display: flex;
     width: 100vw;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 1rem;
     position: relative;
+}
+
+.nav-logo{
+    display: flex;
+    width: 20%;
 }
 
 .nav-links{
     color: #000;
     display: flex;
-    gap: 50px;
+    width: 50%;
+    /* gap: 50px; */
+    justify-content: space-between;
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
