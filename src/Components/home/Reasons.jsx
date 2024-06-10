@@ -31,7 +31,7 @@ const Reasons = () => {
             </div>
 
             <div className="Rsolar">
-                <h2>Solar panel EPC<br></br> company in Gurgaon</h2>
+                <h2>Solar panel EPC<br></br> company </h2>
                 <div className="RsolarInfo">
                     <img src="/assets/rs1.png" />
                     <h4>Most Trusted Brand</h4>

@@ -13,11 +13,11 @@ const Form = () => {
                         <h4>Providing Value To Our Clients Through<br></br> Ongoing Product & Innovation.</h4>
                         <div className="aa">
                             <img src="/assets/a1.png" />
-                            <p>info@arcrenewables.in</p>
+                            <p>Ekamgreenventures@gmail.com</p>
                         </div>
                         <div className="aa">
                             <img src="/assets/a2.png" />
-                            <p>+91-92890 44073, +91 124 4242428</p>
+                            <p>+91- 99337 72272</p>
                         </div>
                         <div className="aa">
                             <img src="/assets/a3.png" />

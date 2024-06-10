@@ -27,7 +27,7 @@
   background-size: contain;
   z-index: 1;
   position: relative;
-  padding: 2rem 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .part1 {
@@ -111,6 +111,7 @@
   max-width: 90vw;
 }
 
+/**/
 .requestBox:hover{
   background-color: #F57600B2;
   box-shadow: 3px 3px 29.9px 0px #00000099;
@@ -345,6 +346,7 @@
   justify-content: space-evenly;
   margin-top: 8rem;
   flex-wrap: wrap;
+  margin-bottom: 4rem
 }
 
 .flowSolar h2 {
@@ -503,6 +505,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .reasonLine {

@@ -1,11 +1,10 @@
 import "./Home.css"
 import Desc from "./Desc"
 import Flow from "./Flow"
-import Brands from "./Brands"
 import Products from "./Products"
 import Reasons from "./Reasons"
-import Clients from "./Clients"
-import Blogs from "./Blogs"
+// import Clients from "./Clients"
+// import Blogs from "./Blogs"
 import Reach from "./Reach"
 
 const Home = () => {
@@ -16,14 +15,14 @@ const Home = () => {
                     <h1 className="hiddenText">helloooo</h1>
                     <h3>Delivering Clean Energy</h3>
                     <div style={{display:"flex", flexDirection:"column", textAlign:"end", marginRight:"10rem"}}>
-                    <h1>EKAM</h1>
-                    <h2>RENEWABLE</h2>
+                    <h1>EKAM GREEN</h1>
                     </div>
+                    <h2>VENTURES</h2>
                 </div>
                 <div className="part2">
                     <div className="part2Text">
                         <h2>Experts in Residential & Commercial</h2>
-                        <h1><span style={{ color: "#E07716" }}>ROOFTOP</span> SOLAR SYSTEM</h1>
+                        <h1><span style={{ color: "#E07716" }}>SOLAR</span> SYSTEM</h1>
                     </div>
                     <div className="requestBox">
                         <h3>Request Callback</h3>
@@ -42,7 +41,7 @@ const Home = () => {
                 <div className="wnum">
                     <img className="phone" src="/assets/phone.png" />
                     <img className="phonew" src="/assets/phonew.png" />
-                    <p>9289044073</p>
+                    <p>99337 72272</p>
                 </div>
             </div>
             <div className="arrow-container">
@@ -50,11 +49,11 @@ const Home = () => {
             </div>
             <Desc />
             <Flow />
-            <Brands />
+            {/* <Brands /> */}
             <Products />
             <Reasons />
-            <Clients />
-            <Blogs />
+            {/* <Clients /> */}
+            {/* <Blogs /> */}
             <Reach />
         </div>
     )

@@ -6,7 +6,7 @@ import L from 'leaflet';
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
-import Clients from "../home/Clients";
+// import Clients from "../home/Clients";
 
 // Fix the default icon issue with Leaflet
 L.Icon.Default.mergeOptions({
@@ -34,24 +34,24 @@ const Contact = () => {
                     <div className="reachContent">
                         <div className="reachInfo">
                             <img src="/assets/a4.png" />
-                            <p>SCO 11, 1st Floor, Above Bank of  Maharashtra, Sector 23 A,Gurugram-122001,Haryana</p>
+                            <p>Ekam Green Ventures LLP, 2nd Floor, Dwarika Elegance, Pantaloons Building, Burdwan Road, Siliguri.</p>
                         </div>
                         <div className="reachInfo">
                             <img src="/assets/a1.png" />
-                            <p>info@arcrenewables.in</p>
+                            <p>Ekamgreenventures@gmail.com</p>
                         </div>
                         <div className="reachInfo">
                             <img src="/assets/a2.png" />
-                            <p>+91-92890 44073, +91 124 4242428</p>
+                            <p>+91-99337 72272</p>
                         </div>
                         <div className="map">
-                            <MapContainer center={[28.504944, 77.052889]} zoom={13} style={{ height: '160px', width: '110%' }}>
+                            <MapContainer center={[26.734039, 88.424180]} zoom={13} style={{ height: '160px', width: '110%' }}>
                                 <TileLayer
                                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                 />
-                                <Marker position={[28.504944, 77.052889]}>
-                                    <Popup>ARC Renewables</Popup>
+                                <Marker position={[26.734039, 88.424180]}>
+                                    <Popup>EKAMGREEN Ventures</Popup>
                                 </Marker>
                             </MapContainer>
                         </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <Clients />
+            {/* <Clients /> */}
         </div>
     )
 }

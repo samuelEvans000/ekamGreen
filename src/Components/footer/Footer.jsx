@@ -8,18 +8,18 @@ const Footer = () => {
                 <a>
                 <img src="/assets/I.png" />
                 </a>
-                <a>
+                <a href="https://x.com/Ekamgreen" target="_blank">
                 <img src="/assets/X.png" />
                 </a>
-                <a>
+                <a href="https://www.linkedin.com/company/ekam-green-ventures" target="_blank">
                 <img src="/assets/L.png" />
                 </a>
-                <a>
+                <a href="https://www.facebook.com/Ekamgreenventures/" target="_blank">
                 <img src="/assets/F.png" />
                 </a>
             </div>
 
-            <div className="footer-info">
+            {/* <div className="footer-info">
                 <div className="div1">
                     <img src="/assets/logo.jpg" />
                     <h5>EKAM RENEWABLES PVT LTD</h5>
@@ -86,7 +86,7 @@ const Footer = () => {
                     <h4>Price Of Solar Panel</h4>
                     <div className="info-list">
                         <img src="/assets/tick.png" />
-                        <p>Solar Panel Price in Gurgaon</p>
+                        <p>Solar Panel Price </p>
                     </div>
                     <div className="info-list">
                         <img src="/assets/tick.png" />
@@ -110,7 +110,7 @@ const Footer = () => {
                     <h4>Locations</h4>
                     <div className="info-list">
                         <img src="/assets/tick.png" />
-                        <p>Solar Panel Company in gurgaon</p>
+                        <p>Solar Panel Company </p>
                     </div>
                     <div className="info-list">
                         <img src="/assets/tick.png" />
@@ -129,10 +129,10 @@ const Footer = () => {
                         <p>Solar Panel Company in NOIDA</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="copyright">
-                <p>Copyright © 2021 Arc Renewables</p>
-                <p>Powered by Arc Renewables</p>
+                <p>Copyright © 2021 EKAMGREEN Ventures</p>
+                <p>Powered by EKAMGREEN Ventures</p>
             </div>
         </div>
     )

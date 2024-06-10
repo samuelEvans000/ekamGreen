@@ -1,5 +1,5 @@
-import Brands from "../home/Brands"
-import Clients from "../home/Clients"
+// import Brands from "../home/Brands"
+// import Clients from "../home/Clients"
 import Form from "../project/Form"
 import "./Services.css"
 
@@ -50,7 +50,7 @@ const Services = () => {
                     </p>
                     <p> Get in touch today to find out how we can bring overall excellence to your installations through technology leadership and industry’s best practices.</p>
 
-                    <div className="numbers">
+                    {/* <div className="numbers">
                         <div className="nums">
                             <h1>1,000+</h1>
                             <p>PROJECTS EXECUTED</p>
@@ -63,7 +63,7 @@ const Services = () => {
                             <h1>500+</h1>
                             <p>SATISFIED CUSTOMERS</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="management">
@@ -75,39 +75,15 @@ const Services = () => {
                     <br></br>
                     <br></br>
                     <p>Call us to know how we add value to your solar projects on strength of our market penetration and practical project construction exposure in India</p>
-                    <h2>+91-92890-44073</h2>
+                    <h2>+91-99337 72272</h2>
                 </div>
 
                 <div className="Line"></div>
 
-                <div className="technology">
-                    <div className="Title">
-                        <h2>Technology solutions</h2>
-                        <div className="techLine"></div>
-                    </div>
+                           </div>
 
-                    <p>Solar trackers are fast emerging as a key technology for increasing solar yields thereby improving plant efficiencies and returns on investments. We bring you some of best and most successful solar trackers worldwide. These patented and advanced Trackers are being supplied to solar plants worldwide, ranging from hundreds of kilowatts to megawatts, across countries in Europe, USA and Asia.</p>
-                    <p> We are exclusively marketing and manufacturing these trackers in India. Get in touch today to find out how trackers can change your project economics</p>
-                </div>
-
-                <div className="percent">
-                        <div className="pers">
-                            <h3>25% IMPROVEMENT</h3>
-                            <p>IN YIELD</p>
-                        </div>
-                        <div className="pers">
-                            <h3>30% INTERNAL</h3>
-                            <p>RETURN ON INVESTMENT</p>
-                        </div>
-                        <div className="pers">
-                            <h3>25 YEARS</h3>
-                            <p>PROJECT LIFE</p>
-                        </div>
-                    </div>
-            </div>
-
-            <Brands />
-            <Clients />
+            {/* <Brands /> */}
+            {/* <Clients /> */}
             <Form />
 
         </div>
