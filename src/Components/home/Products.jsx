@@ -28,7 +28,7 @@ const Products = () => {
                 <div className="Pcontent">
                     <img src="/assets/p4.png" />
                     <h4>Solar Water Heating</h4>
-                    <p>ARC Solar Water Heaters are amongst the most affordable and simple to install of all solar hot water systems.</p>
+                    <p>Ekam Green Solar Water Heaters are amongst the most affordable and simple to install of all solar hot water systems.</p>
                     {/* <button>Read More</button> */}
                 </div>
             </div>

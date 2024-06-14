@@ -375,61 +375,6 @@
   font-weight: 400;
 }
 
-/* Brands */
-
-.brands {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  margin-top: 8rem;
-}
-
-.brandLine {
-  width: 22%;
-  border: 2px solid #F57600;
-}
-
-.brandImg {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-  /* margin-top: 4rem; */
-}
-
-.brandImg img {
-  width: 100%;
-}
-
-.brandContact {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  background-color: #E07716;
-  padding: 2rem 0;
-  margin-top: 4rem;
-}
-
-.bc1,
-.bc2 {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.bc1 p,
-.bc2 p {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-}
-
-.brandContact:hover {
-  background-color: #11770E;
-}
-
 /* Products */
 
 .products {
@@ -582,82 +527,6 @@
   margin: 0;
 }
 
-/* Clients */
-
-.clients {
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 8rem;
-}
-
-.clientLine {
-  width: 7%;
-  border: 2px solid #F57600;
-}
-
-.Cimg {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 6rem;
-}
-
-/* Blogs */
-
-.blogs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 6rem;
-}
-
-.blogLine {
-  width: 10%;
-  border: 2px solid #F57600;
-}
-
-.Bcontent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #FFAF66;
-  border-radius: 20px;
-  width: 80%;
-  padding: 4rem 2rem;
-  height: auto;
-  gap: 4rem;
-  flex-wrap: wrap;
-}
-
-.blog {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-  width: 22%;
-  height: 357px;
-  text-align: center;
-  border-radius: 20px;
-  padding: 2rem 1rem;
-}
-
-.blog img {
-  width: 100%;
-}
-
-.blop h4 {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.blog p {
-  font-size: 14px;
-  font-weight: 400;
-}
 
 /* Reach */
 
@@ -737,6 +606,7 @@ textarea {
   background-color: #fff;
   color: #000;
   font-size: 20px;
+  font-family: "inter", sans-serif;
 }
 
 input {
@@ -759,7 +629,7 @@ textarea {
 
 @media only screen and (max-width: 1300px) {
   .part2{
-    transform: translateY(-1.5rem);
+    transform: translateY(2rem);
   }
 
   .requestBox{

@@ -7,7 +7,7 @@ const Reasons = () => {
                 <img src="/assets/logo.png" />
             </div>
             <div className="Title">
-                <h2>Reasons To Choose EKAM For Powering The Clean Energies</h2>
+                <h2>Reasons To Choose EKAM GREEN For Powering The Clean Energies</h2>
                 <div className="reasonLine"></div>
             </div>
 

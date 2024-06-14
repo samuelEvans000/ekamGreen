@@ -131,8 +131,8 @@ const Footer = () => {
                 </div>
             </div> */}
             <div className="copyright">
-                <p>Copyright © 2021 EKAMGREEN Ventures</p>
-                <p>Powered by EKAMGREEN Ventures</p>
+                <p>Copyright © 2024 EKAM GREEN Ventures</p>
+                <p>Powered by EKAM GREEN Ventures</p>
             </div>
         </div>
     )
