@@ -24,7 +24,7 @@
   background-image: url("/assets/home.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   z-index: 1;
   position: relative;
   padding: 0 0 0 0;
@@ -35,9 +35,18 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   padding-top: 2rem;
+}
+
+.ekam{
+  width: 20%;
+}
+
+.ventures{
+  width: 86%;
+  text-align: left;
 }
 
 .hiddenText{
@@ -54,11 +63,9 @@
 .part1 h1 {
   color: #E07716;
   font-weight: 400;
-  /* font-size: 108px; */
   font-size: clamp(6.12rem, 6.9vw, 6.75rem);
   margin: 0;
   font-family: "Nico Moji", sans-serif;
-  /* line-height: 0.8; */
   text-shadow: 3px 4px 15px #000000;
 }
 

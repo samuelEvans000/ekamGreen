@@ -14,10 +14,12 @@ const Home = () => {
                 <div className="part1">
                     <h1 className="hiddenText">helloooo</h1>
                     <h3>Delivering Clean Energy</h3>
-                    <div style={{display:"flex", flexDirection:"column", textAlign:"end", marginRight:"10rem"}}>
-                    <h1>EKAM GREEN</h1>
+                    <div className="ekam">
+                    <h1>EKAM</h1>
                     </div>
-                    <h2>VENTURES</h2>
+                    <div className="ventures">
+                    <h2>GREEN VENTURES</h2>
+                    </div>
                 </div>
                 <div className="part2">
                     <div className="part2Text">
