@@ -1,117 +1,161 @@
 .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactIntro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    background-image: url("/assets/contactBG.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-image: url("/assets/contactBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: ; */
 }
 
 .contactIntro h2 {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .contactIntro h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .touchBox {
-    display: flex;
-    /* flex-direction: column; */
-    /* border: 1px solid #000; */
-    width: 80%;
-    justify-content: center;
+  display: flex;
+  /* flex-direction: column; */
+  /* border: 1px solid #000; */
+  width: 80%;
+  justify-content: center;
 }
 
 .reach-us {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
 
-.map{
-    width: 100%;
+.map {
+  width: 100%;
+}
+
+.mapContainer {
+  height: 160px;
+  width: 110%;
 }
 
 .requestBox1 {
-    display: flex;
-    flex-direction: column;
-    background-image: url("/assets/requestBG.png");
-    background-repeat: no-repeat;
-    padding: 5rem 5rem;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/assets/requestBG.png");
+  background-repeat: no-repeat;
+  padding: 5rem 5rem;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .requestBox1 h3 {
-    font-size: 28px;
-    font-weight: 600;
-    margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .requestBox1 p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .requestBox1 input {
-    font-size: 10px;
-    color: #FFFFFFCC;
-    background-color: #000000BF;
+  font-size: 10px;
+  color: #ffffffcc;
+  background-color: #000000bf;
 }
 
 .requestBox1 button {
-    background-color: #E07716;
-    box-shadow: 1px 1px 4px 0px #FFFFFF66;
-    padding: 1rem 2rem;
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 1rem;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-family: "inter", sans-serif;
+  background-color: #e07716;
+  box-shadow: 1px 1px 4px 0px #ffffff66;
+  padding: 1rem 2rem;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 1rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: "inter", sans-serif;
 }
 
 .popup {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 15px 20px;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.success {
+  background-color: #4caf50;
+}
+
+.error {
+  background-color: #f44336;
+}
+
+.empty {
+  background: #f44336;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contacts {
+    margin-top: 6rem;
   }
-  
-  .success {
-    background-color: #4caf50; 
+  .contactIntro {
+    background-size: 80% 70%;
   }
-  
-  .error {
-    background-color: #f44336; 
+  .contactIntro h1 {
+    font-size: 32px;
+  }
+  .contactIntro h2 {
+    display: none;
+  }
+  .touchBox {
+    flex-direction: column;
+    width: 95%;
+    gap: 0.5rem;
+  }
+  .reach-us {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .mapContainer {
+    width: 95vw;
   }
 
-  .empty{
-    background: #f44336;
-    color: #fff;
+.requestBox1{
+    padding: 4rem 2rem;
+}
+
+  .requestBox1 h3 {
+    font-size: 26px;
   }
+
+  .requestBox1 p {
+    font-size: 16px;
+  }
+}

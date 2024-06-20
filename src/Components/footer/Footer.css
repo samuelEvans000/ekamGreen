@@ -62,7 +62,12 @@
     color: #fff;
     justify-content: space-around;
     padding: 15px 0px;
-    gap: 16rem;
     font-size: 20px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 770px) {
+    .copyright p{
+        font-size: 10px;
+    }
 }

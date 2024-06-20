@@ -107,7 +107,7 @@ const Reach = () => {
         </div>
         <div className="contact">
           <form action="#" method="post" onSubmit={handleSubmit}>
-            <div style={{ display: "flex", gap: "20px" }}>
+            <div className="nameEmail">
               <input
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}

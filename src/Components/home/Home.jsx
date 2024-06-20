@@ -14,7 +14,6 @@ const Home = () => {
   const [contact, setContact] = useState("");
   const [isSending, setIsSending] = useState(false);
 
-
   const [showPopup, setShowPopup] = useState(false);
   const [popupMessage, setPopupMessage] = useState("");
 
@@ -36,7 +35,7 @@ const Home = () => {
       return;
     }
 
-    setIsSending(true)
+    setIsSending(true);
 
     const params = {
       from_name: fullName,
@@ -69,9 +68,19 @@ const Home = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(!isSending)
-    sendMail();
+    if (!isSending) sendMail();
   };
+
+    const [showFlick1, setShowFlick1] = useState(true);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setShowFlick1(prevShowFlick1 => !prevShowFlick1);
+      }, 3000);
+  
+      return () => clearInterval(interval);
+    }, []);
+  
 
   return (
     <div className="home">
@@ -86,6 +95,17 @@ const Home = () => {
             <h2>GREEN VENTURES</h2>
           </div>
         </div>
+          <div className="Mpart1">
+          <div className={`flick1 ${showFlick1 ? 'active' : ''}`}>
+              <h3>Delivering Clean Energy</h3>
+              <h1>EKAM</h1>
+              <h2>RENEWABLE</h2>
+            </div>
+            <div className={`flick2 ${showFlick1 ? '' : 'active'}`}>
+              <h3>Experts in Residential & Commercial</h3>
+              <h2>ROOFTOP<br></br>SOLAR SYSTEM</h2>
+            </div>
+          </div>
         <div className="part2">
           <div className="part2Text">
             <h2>Experts in Residential & Commercial</h2>
@@ -108,7 +128,8 @@ const Home = () => {
               placeholder="Contact no."
               required
             />
-            <button onClick={handleSubmit} disabled={isSending}>{isSending ? "Sending..." : "Request call"}
+            <button onClick={handleSubmit} disabled={isSending}>
+              {isSending ? "Sending..." : "Request call"}
             </button>
           </div>
           {showPopup && (

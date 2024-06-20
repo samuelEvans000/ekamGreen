@@ -56,3 +56,89 @@
     color: #663D00 !important;
     border-bottom: 2px solid #663D00;
 }
+
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width: 770px) {
+    .nav-contact, .navbar{
+        display: none;
+    }
+      .menu {
+        display: block;
+        z-index: 2;
+      }
+    
+      .menuLogo {
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+        align-items: center;
+        justify-content: right;
+        padding: 2.5rem 0;
+        z-index: 2000;
+      }
+    
+      .Bmenu {
+        width: fit-content;
+        margin-right: 2rem;
+      }
+    
+      .Mlogo {
+        width: fit-content;
+        margin-right: 2rem;
+      }
+    
+      .menuIcon {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: fixed;
+        top: 35px;
+        right: 20px;
+        z-index: 2000;
+      }
+    
+      /* Side Menu */
+      .side-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        color: #000;
+        transition: left 0.3s;
+        z-index: 2000;
+      }
+    
+      .menuList {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .menuList p {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+        padding: 1rem 1rem;
+        background-color: #FABA8080;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    
+      .blackLine {
+        width: 100%;
+        border: 1px solid #000;
+      }
+    
+      .side-menu.open {
+        left: 0;
+      }
+    
+      body.no-scroll {
+        overflow: hidden !important;
+      }
+}

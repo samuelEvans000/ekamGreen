@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Nico Moji';
-  src: url('/src/fonts/NicoMoji.ttf') format('truetype');
+  font-family: "Nico Moji";
+  src: url("/src/fonts/NicoMoji.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -28,6 +28,7 @@
   z-index: 1;
   position: relative;
   padding: 0 0 0 0;
+  /* min-height: 100vh; */
 }
 
 .part1 {
@@ -40,16 +41,16 @@
   padding-top: 2rem;
 }
 
-.ekam{
+.ekam {
   width: 20%;
 }
 
-.ventures{
+.ventures {
   width: 86%;
   text-align: left;
 }
 
-.hiddenText{
+.hiddenText {
   visibility: hidden;
 }
 
@@ -61,7 +62,7 @@
 }
 
 .part1 h1 {
-  color: #E07716;
+  color: #e07716;
   font-weight: 400;
   font-size: clamp(6.12rem, 6.9vw, 6.75rem);
   margin: 0;
@@ -71,12 +72,12 @@
 
 .part1 h2 {
   /* font-size: 80px; */
-  font-size: clamp(4.3rem, 5.12vw, 5rem);
+  font-size: clamp(3.8rem, 5.12vw, 5rem);
   font-weight: 400;
   margin: 0;
   color: #fff;
   font-family: "Nico Moji", sans-serif;
-  text-shadow: 3px 4px 15px  #000000;
+  text-shadow: 3px 4px 15px #000000;
 }
 
 .part2 {
@@ -101,7 +102,7 @@
   font-weight: 400;
   margin: 0;
   font-family: "Nico Moji", sans-serif;
-  text-shadow: 3px 4px 15px  #000000;
+  text-shadow: 3px 4px 15px #000000;
 }
 
 .requestBox {
@@ -110,8 +111,8 @@
   justify-content: center;
   justify-self: end;
   padding: 4vw 3vw;
-  background-color: #000000B2;
-  box-shadow: 3px 3px 29.9px 0px #FFFFFF99;
+  background-color: #000000b2;
+  box-shadow: 3px 3px 29.9px 0px #ffffff99;
   color: #fff;
   border-radius: 10px;
   transform: translate(2vw, -8vw);
@@ -119,8 +120,8 @@
 }
 
 /**/
-.requestBox:hover{
-  background-color: #F57600B2;
+.requestBox:hover {
+  background-color: #f57600b2;
   box-shadow: 3px 3px 29.9px 0px #00000099;
 }
 
@@ -133,7 +134,7 @@
 .requestBox p {
   font-size: 12px;
   font-weight: 400;
-  color: #FFFFFFB2;
+  color: #ffffffb2;
   margin: 0 0 12px 0;
 }
 
@@ -148,8 +149,8 @@
 }
 
 .requestBox button {
-  background-color: #E07716;
-  box-shadow: 1px 1px 4px 0px #FFFFFF66;
+  background-color: #e07716;
+  box-shadow: 1px 1px 4px 0px #ffffff66;
   padding: 0.6rem 2rem;
   font-size: 10px;
   font-weight: 400;
@@ -160,19 +161,20 @@
   font-family: "inter", sans-serif;
 }
 
-.whatsapp{
+.whatsapp {
   display: flex;
   /* width: 60%; */
-  background-color: #FFE5B5; 
+  background-color: #ffe5b5;
   /* justify-content: space-between; */
   /* gap: 10rem; */
   margin-top: 4rem;
   margin-bottom: 4rem;
   border-radius: 10px;
-  box-shadow: 1px 1px 15px 0px #E07716CC;
+  box-shadow: 1px 1px 15px 0px #e07716cc;
 }
 
-.wtext, .wnum{
+.wtext,
+.wnum {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -180,34 +182,75 @@
   border-radius: 10px;
 }
 
-.phonew{
+.phonew {
   display: none;
 }
 
-.wnum:hover .phone{
+.wnum:hover .phone {
   display: none;
 }
 
-.wnum:hover .phonew{
+.wnum:hover .phonew {
   display: block;
 }
 
-.wnum p, .wtext p{
+.wnum p,
+.wtext p {
   font-size: 24px;
   font-weight: 600;
-  color: #000000CC;
+  color: #000000cc;
 }
 
-.wnum:hover{
-  background: linear-gradient(90deg, #FFE5B5 2.96%, #E07716 47.3%);
+.wnum:hover {
+  background: linear-gradient(90deg, #ffe5b5 2.96%, #e07716 47.3%);
 }
 
-.wnum:hover p, .wtext:hover p{
-    color: #fff;
+.wnum:hover p,
+.wtext:hover p {
+  color: #fff;
 }
 
-.wtext:hover{
-  background: linear-gradient(90deg, #E7913B 0%, #E07716 0.01%, #E07716 67.9%, #FFE5B5 100%);
+.wtext:hover {
+  background: linear-gradient(
+    90deg,
+    #e7913b 0%,
+    #e07716 0.01%,
+    #e07716 67.9%,
+    #ffe5b5 100%
+  );
+}
+
+/* src/App.css */
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.arrow {
+  width: 50px; /* Adjust the size as needed */
+  height: 74px; /* Adjust to match the height of the images */
+  background-image: url("/assets/ani1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+    background-image: url("/assets/ani1.png");
+  }
+  50% {
+    transform: translateY(30px); /* Adjust the distance as needed */
+    background-image: url("/assets/ani2.png");
+  }
+  100% {
+    transform: translateY(0);
+    background-image: url("/assets/ani1.png");
+  }
 }
 
 /* Desc */
@@ -235,7 +278,7 @@
 
 .descLine {
   width: 25%;
-  border: 2px solid #F57600;
+  border: 2px solid #f57600;
 }
 
 .descContent {
@@ -277,75 +320,32 @@
 
 .flowLine {
   width: 50%;
-  border: 2px solid #F57600;
+  border: 2px solid #f57600;
 }
 
-/* .workflow-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 20px;
-  position: relative;
-  margin-top: 2rem;
-  background-image: url("/assets/border.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70%;
-} */
-
-.workflow-container{
+.workflow-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 20px ;
+  padding: 20px;
   position: relative;
   margin-top: 2rem;
   /* background-image: url("/assets/test.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
- transition: background-image 0.5s ease;
+  transition: background-image 0.5s ease;
 }
 
-.test1, .test2, .test3, .test4{
+.test1,
+.test2,
+.test3,
+.test4 {
   width: 236px;
   height: 236px;
   border-radius: 50%;
 }
-
-
-/* 
-.workflow-stage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #BBF4B7;
-  border-radius: 50%;
-  width: 225px;
-  height: 225px;
-  justify-content: center;
-  text-align: center;
-  margin: 20px 10px;
-  position: relative;
-  z-index: 1;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.workflow-stage:hover {
-  background-color: #FFD890;
-  transform: scale(1.03);
-}
-
-.workflow-stage .icon {
-  font-size: 2.5em;
-}
-
-.workflow-stage .title {
-  margin-top: 10px;
-  font-weight: bold;
-} */
 
 .flowSolar {
   display: flex;
@@ -353,13 +353,13 @@
   justify-content: space-evenly;
   margin-top: 8rem;
   flex-wrap: wrap;
-  margin-bottom: 4rem
+  margin-bottom: 4rem;
 }
 
 .flowSolar h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #F57600;
+  color: #f57600;
   text-align: center;
   margin: 0px 0;
 }
@@ -381,20 +381,20 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #FFAF6699;
+  background-color: #ffaf6699;
   padding: 4rem 0;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .products:hover {
-  background-color: #BBF4B799;
-  box-shadow: 0px 0px 100px 0px #FFFFFF;
+  background-color: #bbf4b799;
+  box-shadow: 0px 0px 100px 0px #ffffff;
   transform: scale(1);
 }
 
 .productLine {
   width: 8%;
-  border: 2px solid #F57600;
+  border: 2px solid #f57600;
 }
 
 .Plist {
@@ -406,17 +406,20 @@
   padding: 0 2rem;
   flex-wrap: wrap;
 }
+.PlistM {
+  display: none;
+}
 
 .Pcontent {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
   text-align: center;
   background-color: #fff;
-  padding: 2rem 3rem;
-  width: 15%;
-  height: auto;
+  /* padding: 2rem 3rem; */
+  width: 250px;
+  height: 420px;
   border-radius: 20px;
 }
 
@@ -433,18 +436,18 @@
 .Pcontent p {
   font-size: 14px;
   font-weight: 400;
-  color: #000000CC;
+  color: #000000cc;
   margin-bottom: 1rem;
 }
 
 .Pcontent button {
-  background-color: #11770E;
+  background-color: #11770e;
   margin-top: auto;
   display: flex;
 }
 
 .Pcontent button:hover {
-  background-color: #E07716;
+  background-color: #e07716;
   color: #000;
 }
 
@@ -462,7 +465,7 @@
 
 .reasonLine {
   width: 40%;
-  border: 2px solid #F57600;
+  border: 2px solid #f57600;
 }
 
 .Rcontent {
@@ -498,6 +501,7 @@
   margin-top: 8rem;
   gap: 4rem;
   flex-wrap: wrap;
+  padding: 0 2rem;
 }
 
 .RsolarInfo {
@@ -509,7 +513,7 @@
 }
 
 .Rsolar h2 {
-  color: #F57600;
+  color: #f57600;
   font-size: 28px;
   font-weight: 700;
 }
@@ -527,26 +531,25 @@
   margin: 0;
 }
 
-
 /* Reach */
 
 .reachBox {
   width: 80%;
   display: flex;
-  border: 2px solid #F57600;
+  border: 2px solid #f57600;
   border-radius: 20px;
   padding: 2rem 2rem;
   /* justify-content: space-; */
 }
 
-.reach{
+.reach {
   display: flex;
   flex-direction: column;
   width: 50%;
   align-items: center;
 }
 
-.reachContent{
+.reachContent {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -554,38 +557,38 @@
   gap: 20px;
 }
 
-.reachInfo{
+.reachInfo {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.reachInfo p{
+.reachInfo p {
   font-size: 18px;
   font-weight: 400;
 }
 
-.request{
+.request {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
 }
 
 .contact {
   display: flex;
   width: 90%;
-  background-color: #D6F8D4;
+  background-color: #d6f8d4;
   border-radius: 20px;
   padding: 2rem 4rem;
   transition: background-color 0.2s ease;
 }
 
-.contact:hover{
-  background-color: #FFAF66;
+.contact:hover {
+  background-color: #ffaf66;
 }
 
-.contact:hover .messageButton{
-  background-color: #F57600;
+.contact:hover .messageButton {
+  background-color: #f57600;
   color: #000;
   box-shadow: 1px 2px 8px 0px #00000080;
 }
@@ -594,6 +597,11 @@
   display: flex;
   flex-direction: column;
   width: fit-content;
+}
+
+.nameEmail {
+  display: flex;
+  gap: 20px;
 }
 
 input,
@@ -622,17 +630,260 @@ textarea {
 }
 
 .messageButton {
-  background-color: #11770E;
+  background-color: #11770e;
   padding: 1rem;
   transition: background-color 0.2s ease;
 }
 
+.Mpart1 {
+  display: none;
+}
+
+.descContentM {
+  display: none;
+}
+
+@media only screen and (min-width: 1640px) {
+  .requestBox {
+    transform: translate(2.5rem, -4rem);
+  }
+}
+
 @media only screen and (max-width: 1300px) {
-  .part2{
+  .part2 {
     transform: translateY(2rem);
   }
 
-  .requestBox{
-    transform: translate(2.5rem,-4rem);
+  .requestBox {
+    transform: translate(2.5rem, -4rem);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Title h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .part1 {
+    display: none;
+  }
+  .part2 {
+    transform: none;
+    justify-content: center;
+  }
+  .part2Text {
+    display: none;
+  }
+  .requestBox {
+    transform: none;
+  }
+  .intro {
+    width: 100%;
+    background-image: none;
+    min-height: auto;
+  }
+  .Mpart1 {
+    width: 100%;
+    display: flex;
+    background-image: url("/assets/homeM.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 3rem;
+    min-height: 40vh;
+    align-items: end;
+    /* padding: 1rem ; */
+    justify-content: center;
+  }
+
+  .flick1,
+  .flick2 {
+    position: absolute;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .flick1.active,
+  .flick2.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  .flick1 {
+    width: 80%;
+  }
+  .flick2 {
+    width: 80%;
+  }
+
+  .flick1 h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 1px 3px 4px #000000b2;
+  }
+
+  .flick1 h1 {
+    font-size: 40px;
+    color: #e07716;
+    font-weight: 400;
+    text-shadow: 3px 4px 15px #000000;
+    font-family: "Nico Moji", sans-serif;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .flick1 h2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 3px 4px 15px #000000;
+    font-family: "Nico Moji", sans-serif;
+    margin-top: 0;
+    text-align: right;
+    line-height: 2.5rem;
+  }
+
+  .flick2 h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 1px 3px 4px #000000b2;
+    /* white-space: nowrap; */
+  }
+
+  .flick2 h2 {
+    font-size: 32px;
+    color: #e07716;
+    font-weight: 400;
+    text-shadow: 2px 4px 12px #000000;
+    font-family: "Nico Moji", sans-serif;
+    text-align: right;
+    line-height: 2.5rem;
+  }
+
+  .whatsapp {
+    background-color: #fff;
+  }
+  .wnum {
+    display: none;
+  }
+
+  .wtext {
+    padding: 1rem;
+  }
+  .wtext p {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .descContent {
+    display: none;
+  }
+  .descContentM {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .descInfo {
+    width: 90%;
+    align-items: center;
+    padding: 2rem 0;
+    margin: auto;
+  }
+
+  .descInfo p {
+    font-size: 17px;
+  }
+  .descImg img {
+    width: 100%;
+  }
+
+  .Rcontent {
+    flex-direction: column;
+    height: auto;
+    background-image: url("/assets/orm.png");
+    background-size: 100% 100%;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .Rcontent:hover {
+    background-image: url("/assets/grm.png");
+  }
+
+  .workflow-container {
+    flex-direction: column;
+  }
+
+  .flowSolar {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .Plist {
+    display: none;
+  }
+
+  .slider {
+    display: flex;
+    width: 100%;
+  }
+
+  .PlistM {
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+
+  .box{
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .reachBox{
+    display: flex;
+    align-items: center;
+  }
+
+  .Rsolar h2 {
+    text-align: center;
+  }
+
+  .reachBox {
+    padding: 2rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reach {
+    width: 100%;
+  }
+
+  .reachInfo p {
+    font-size: 16px;
+    word-break: break-all;
+  }
+
+  .request {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .contact form {
+    width: -webkit-fill-available;
+  }
+  .nameEmail {
+    flex-direction: column;
+    gap: 0;
   }
 }

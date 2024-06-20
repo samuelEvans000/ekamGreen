@@ -152,21 +152,6 @@ const Services = () => {
             to your installations through technology leadership and industry’s
             best practices.
           </p>
-
-          {/* <div className="numbers">
-                        <div className="nums">
-                            <h1>1,000+</h1>
-                            <p>PROJECTS EXECUTED</p>
-                        </div>
-                        <div className="nums">
-                            <h1>100+</h1>
-                            <p>MW INSTALLED</p>
-                        </div>
-                        <div className="nums">
-                            <h1>500+</h1>
-                            <p>SATISFIED CUSTOMERS</p>
-                        </div>
-                    </div> */}
         </div>
 
         <div className="management">
@@ -190,12 +175,9 @@ const Services = () => {
           </p>
           <h2>+91-99337 72272</h2>
         </div>
-
-        <div className="Line"></div>
+<br></br>
+        {/* <div className="Line"></div> */}
       </div>
-
-      {/* <Brands /> */}
-      {/* <Clients /> */}
       <Form />
     </div>
   );

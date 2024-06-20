@@ -108,7 +108,7 @@ const Form = () => {
         </div>
         <div className="Pcontact">
           <form onSubmit={handleSubmit} action="#" method="post">
-            <div style={{ display: "flex", gap: "20px" }}>
+            <div className="nameEmail">
               <input
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
