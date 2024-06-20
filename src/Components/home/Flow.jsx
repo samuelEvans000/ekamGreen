@@ -58,7 +58,7 @@ const Flow = () => {
 
 
             <div className="flowSolar">
-                <h2>Why go<br></br> Solar?</h2>
+                <h2>Why go<br className="break"></br> Solar?</h2>
                 <div className="solarInfo">
                     <img src="/assets/money.png" />
                     <p>Make Money From Sun</p>

@@ -76,7 +76,7 @@ const Reach = () => {
   return (
     <div className="reachBox">
       <div className="reach">
-        <div className="Title" style={{ marginBottom: "2rem" }}>
+        <div className="Title reachTitle" >
           <h2>Reach Us</h2>
         </div>
         <div className="reachContent">

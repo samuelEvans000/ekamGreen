@@ -549,6 +549,10 @@
   align-items: center;
 }
 
+.reachTitle{
+  margin-bottom: 2rem;
+}
+
 .reachContent {
   display: flex;
   flex-direction: column;
@@ -676,6 +680,8 @@ textarea {
   }
   .requestBox {
     transform: none;
+    padding: 2.5rem  2.5rem;
+    align-items: center;
   }
   .intro {
     width: 100%;
@@ -743,6 +749,7 @@ textarea {
     margin-top: 0;
     text-align: right;
     line-height: 2.5rem;
+    margin-bottom: 3rem;
   }
 
   .flick2 h3 {
@@ -761,10 +768,12 @@ textarea {
     font-family: "Nico Moji", sans-serif;
     text-align: right;
     line-height: 2.5rem;
+    margin-bottom: 3rem;
   }
 
   .whatsapp {
     background-color: #fff;
+    box-shadow: 3px 4px 12px 0px #E0771699;
   }
   .wnum {
     display: none;
@@ -777,6 +786,11 @@ textarea {
     font-size: 16px;
     white-space: nowrap;
   }
+
+.arrow{
+  background-size: auto;
+  background-position: center;
+}
 
   .descContent {
     display: none;
@@ -795,6 +809,10 @@ textarea {
 
   .descInfo p {
     font-size: 17px;
+  }
+
+  .descImg{
+    width: 75%;
   }
   .descImg img {
     width: 100%;
@@ -822,6 +840,14 @@ textarea {
     gap: 2rem;
   }
 
+  .flowSolar h2{
+    font-size: 40px;
+  }
+
+  .break{
+    display: none;
+  }
+
   .Plist {
     display: none;
   }
@@ -844,11 +870,7 @@ textarea {
   .box{
     display: flex !important;
     justify-content: center;
-  }
-
-  .reachBox{
-    display: flex;
-    align-items: center;
+    /* width: 130% !important; */
   }
 
   .Rsolar h2 {
@@ -862,6 +884,11 @@ textarea {
   }
   .reach {
     width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .reachTitle{
+    margin-bottom: 1rem;
   }
 
   .reachInfo p {
